@@ -1,0 +1,4 @@
+#Thu Mar 01 12:03:29 IST 2018
+base.0=C\:\\Users\\kiit\\AndroidStudioProjects\\LoginResgister\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
+path.0=classes.dex
+renamed.0=classes.dex

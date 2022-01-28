@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.a1405178.loginresgister.RegisterActivity">
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="356dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editText2"
+        android:layout_alignLeft="@+id/editText2"
+        android:layout_alignStart="@+id/editText2"
+        android:layout_marginBottom="18dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="356dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/etPassword"
+        android:layout_alignLeft="@+id/etPassword"
+        android:layout_alignStart="@+id/etPassword"
+        android:layout_marginBottom="19dp"
+        android:ems="10"
+        android:hint="etUsername"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="357dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etAge"
+        android:layout_alignStart="@+id/etAge"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/etAge"
+        android:layout_width="357dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="174dp"
+        android:ems="10"
+        android:hint="Age"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/bRegister"
+        android:layout_width="357dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etAge"
+        android:layout_alignStart="@+id/etAge"
+        android:layout_alignTop="@+id/etAge"
+        android:layout_marginTop="61dp"
+        android:text="Register" />
+</RelativeLayout>
